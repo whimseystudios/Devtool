@@ -1,2 +1,0 @@
-# Devtool
-Whimsey Studios Devtool
