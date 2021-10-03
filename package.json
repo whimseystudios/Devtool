@@ -1,0 +1,71 @@
+{
+    "name": "@whimsey/devtool",
+    "version": "0.1.0-3",
+    "description": "Whimsey Studios Devtool.",
+    "private": false,
+    "license": "MIT",
+    "author": "Whimsey Digital <devtool@whimseydigital.com> (https://www.whimseydigital.com)",
+    "homepage": "https://www.whimseystudios.com",
+    "main": "./devtool.js",
+    "types": "./devtool.d.ts",
+    "typings": "./devtool.d.ts",
+    "scripts": {
+        "build": "tsc -p ./tsconfig.json",
+        "lint": "eslint --ext .ts,.js -f ./node_modules/eslint-friendly-formatter src",
+        "lint:fix": "eslint --ext .ts,.js -f ./node_modules/eslint-friendly-formatter --fix src"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/whimseystudios/Devtool.git"
+    },
+    "bugs": {
+        "url": "https://github.com/whimseystudios/Devtool/issues"
+    },
+    "keywords": [
+        "whimsey",
+        "studios",
+        "devtool",
+        "vue",
+        "plugin",
+        "electron"
+    ],
+    "files": [
+        "define.d.ts",
+        "define.js",
+        "define.js.map",
+        "devtool.d.ts",
+        "devtool.js",
+        "devtool.js.map",
+        "msgdef.d.ts",
+        "msgdef.js",
+        "msgdef.js.map",
+        "pluginx.d.ts",
+        "pluginx.js",
+        "pluginx.js.map",
+        "changes.txt",
+        "license.txt",
+        "readme.md"
+    ],
+    "engines": {
+        "node": ">=10.16.0 <=16.x.x",
+        "npm": ">=6.0.0"
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+        "@types/node": "^16.10.1",
+        "@types/webpack-env": "^1.16.2",
+        "@typescript-eslint/eslint-plugin": "^4.31.2",
+        "@typescript-eslint/parser": "^4.31.2",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^7.32.0",
+        "eslint-friendly-formatter": "^4.0.1",
+        "eslint-loader": "^4.0.2",
+        "eslint-plugin-html": "^6.2.0",
+        "eslint-plugin-import": "^2.24.2",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^5.1.0",
+        "eslint-plugin-standard": "^5.0.0",
+        "typescript": "^4.4.3"
+    }
+}
